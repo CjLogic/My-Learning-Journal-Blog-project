@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning Journal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html">
+            <img class="logo_img" src="/images/logo17.png" alt="logo image">
+        </a>
+            <h1 class="logo">My Learning Journal</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <article class="blog-post">
+            <div id="post-content">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </article>
+
+        <section class="recent-posts">
+            <h2>Recent Posts</h2>
+            <div class="recent-posts-grid">
+                <!-- Recent posts will be loaded dynamically -->
+            </div>
+            <button id="view-more" class="view-more-btn">View More</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>My Learning Journal</p>
+            <p>Copyright &copy;2024. All rights reserved.</p>
+        </div>
+
+    <script src="js/posts.js" type="module"></script>
+    <script src="js/post.js" type="module"></script>
+</body>
+</html>

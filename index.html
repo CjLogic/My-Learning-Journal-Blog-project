@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="about.html">
+                <img class="logo_img" src="/images/logo17.png" alt="logo image">
+            </a>
+            <h1 class="logo">My Learning Journal</h1>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Getting Started with Web Development</h1>
+            <p class="hero-date">April 20, 2024</p>
+            <p class="hero-excerpt">Learn the fundamentals of web development and start your journey as a developer...</p>
+            <a href="post.html?id=1" class="hero-cta">Read More</a>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="blog-grid">
+            <article class="blog-card" data-id="1">
+                <img src="https://picsum.photos/seed/1/800/500" alt="Blog 1">
+                <div class="blog-content">
+                    <h2>Getting Started with Web Development</h2>
+                    <p class="date">April 20, 2024</p>
+                    <p class="excerpt">Learn the fundamentals of web development and start your journey as a developer...</p>
+                    <a href="post.html?id=1" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-card" data-id="2">
+                <img src="https://picsum.photos/seed/2/800/500" alt="Blog 2">
+                <div class="blog-content">
+                    <h2>CSS Best Practices</h2>
+                    <p class="date">April 19, 2024</p>
+                    <p class="excerpt">Discover the best practices for writing maintainable and scalable CSS...</p>
+                    <a href="post.html?id=2" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-card" data-id="3">
+                <img src="https://picsum.photos/seed/3/800/500" alt="Blog 3">
+                <div class="blog-content">
+                    <h2>JavaScript Tips and Tricks</h2>
+                    <p class="date">April 18, 2024</p>
+                    <p class="excerpt">Enhance your JavaScript skills with these essential tips and tricks...</p>
+                    <a href="post.html?id=3" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-card" data-id="4">
+                <img src="https://picsum.photos/seed/4/800/500" alt="Blog 4">
+                <div class="blog-content">
+                    <h2>Responsive Design Guide</h2>
+                    <p class="date">April 17, 2024</p>
+                    <p class="excerpt">Master the art of creating responsive websites that work on all devices...</p>
+                    <a href="post.html?id=4" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-card" data-id="5">
+                <img src="https://picsum.photos/seed/5/800/500" alt="Blog 5">
+                <div class="blog-content">
+                    <h2>Web Performance Optimization</h2>
+                    <p class="date">April 16, 2024</p>
+                    <p class="excerpt">Learn how to optimize your website for better performance and user experience...</p>
+                    <a href="post.html?id=5" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-card" data-id="6">
+                <img src="https://picsum.photos/seed/6/800/500" alt="Blog 6">
+                <div class="blog-content">
+                    <h2>Modern Web APIs</h2>
+                    <p class="date">April 15, 2024</p>
+                    <p class="excerpt">Explore the latest web APIs and how to use them in your projects...</p>
+                    <a href="post.html?id=6" class="read-more">Read More</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>My Learning Journal</p>
+            <p>Copyright &copy;2024. All rights reserved.</p>
+        </div>
+
+    <script src="js/posts.js" type="module"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
